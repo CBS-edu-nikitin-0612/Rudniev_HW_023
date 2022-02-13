@@ -1,0 +1,20 @@
+﻿<Window x:Class="task4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:task4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="120" Width="230">
+    <Grid>
+        <Label Content="a:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Name="BoxA" Margin="34,14,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="42"/>
+        <Label Content="b:" HorizontalAlignment="Left" Margin="81,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Name="BoxB" Margin="100,14,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="42"/>
+        <Label Name="BoxResult" Content="= " HorizontalAlignment="Left" Margin="147,10,0,0" VerticalAlignment="Top"/>
+        <Button Name="Addition" Content="a + b" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Click="Addition_Click"/>
+        <Button Name="Subtraction" Content="a - b" HorizontalAlignment="Left" Margin="55,41,0,0" VerticalAlignment="Top" Click="Subtraction_Click"/>
+        <Button Name="Multiplication" Content="a * b" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Click="Multiplication_Click_1"/>
+        <Button Name="Division" Content="a / b" HorizontalAlignment="Left" Margin="144,41,0,0" VerticalAlignment="Top" Click="Division_Click"/>
+    </Grid>
+</Window>
